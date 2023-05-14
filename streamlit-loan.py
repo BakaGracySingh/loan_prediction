@@ -62,9 +62,9 @@ def app():
 
     # Display prediction
     if prediction == 0:
-        st.write('Loan application denied.')
+        st.write('Loan application denied')
     else:
-        st.write('Loan application approved.')
+        st.write('Loan application approved')
 
 # Run Streamlit app
 if __name__ == '__main__':
