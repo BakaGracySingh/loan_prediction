@@ -50,7 +50,7 @@ def app():
         'Gender': st.selectbox('Gender', ['Male', 'Female']),
         'Married': st.selectbox('Married', ['Yes', 'No']),
         'Dependents': st.number_input('Number of Dependent', min_value=0, max_value=3),
-        'Education': st.selectbox('Gender', ['Graduate', 'Not Graduate']),
+        'Education': st.selectbox('education', ['Graduate', 'Not Graduate']),
         'ApplicantIncome': st.number_input('Applicant Income', min_value=loan.ApplicantIncome.min(), max_value=loan.ApplicantIncome.max()),
         'LoanAmount': st.number_input('Loan Amount', min_value=loan.LoanAmount.min()*1000, max_value=loan.LoanAmount.max()*1000),
         'Credit_History': st.number_input('Credit History', 0, 1),

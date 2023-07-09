@@ -1,24 +1,62 @@
 # Loan eligible prediction
 
-### **Features explanation**
+This project use to predict is Loan get approved or not based on applicant condition
 
-- Gender = Applicant gender [ Male, Female ]
-- Married = Applicant marriage status [ Yes: married, No: not married]
-- Education = Applicant education status [ Graduate, Not Graduate ]
-- Property_Area = Applicant Property area [ Urban, Semi-Urban, Rural ]
-- Credit_History = Applicant credit history meets guidelines [ 1, 0 ]
-- LoanAmount = loan amount filed by applicant 
-- ApplicantIncome = Applicant income per mont
+## Install
 
-### **Needed Library**
+This project requires **Python** and the following Python libraries installed:
 
-- Streamlit   (Webapp development)
-- Pandas      (use for handling csv data)
-- SKlearn     (Make Logistic regression model)
-- Pickle      (Export and import library)
-- Seaborn     (For data visualization)
-- Matplotlib  (For data visualization)
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org/)
+- [matplotlib](http://matplotlib.org/)
+- [seaborn](https://seaborn.pydata.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [imblearn](https://imbalanced-learn.org/stable/)
+- [streamlit](https://streamlit.io/)
 
-### **Needed source**
 
-- loan dataset = [loan-dataset.csv](https://www.kaggle.com/datasets/vikasukani/loan-eligible-dataset)
+## Usage
+
+first, you can clone this git repository
+
+```
+git clone https://github.com/HillalXD/Loan-eligible-prediction.git
+```
+
+then navigate your command to this directory
+
+```
+cd Loan-eligible-prediction
+```
+
+after that run `streamlit-loan.py` to use streamlit app
+
+```
+streamlit run streamlit-loan.py
+```
+
+
+## Code 
+- Template code is provided in the `loan.ipynb` notebook file.
+- `loan-dataset.csv` is provide data source for training model
+- `streamlit-loan.py` is streamlit web application to user input features for model predicting loan approval
+
+## Dataset features
+
+for doing prediction you need to input this features:
+
+| features  | explanation  | 
+| :-------- | :------- | 
+| gender | user applicant gender |
+| married  | is applicant has married or not |
+| dependents  | is applicant has dependent or not |
+| education | is applicant has graduate or not |
+| Applicant income | total applicant income |
+| loan amount | total applying amount |
+| property_area | apllicant property type (rural, semiurban, urban) |
+| credit_history  | 1 if good and 0 if bad history |
+
+
+
+
+
